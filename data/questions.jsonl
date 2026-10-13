@@ -1,0 +1,40 @@
+{"id": "q01", "doc": "1706.03762", "question": "How many identical layers are in the Transformer encoder stack?", "answer": ["6", "six"], "evidence": "stack of N = 6 identical layers"}
+{"id": "q02", "doc": "1706.03762", "question": "What is the dimensionality of the inner layer of the Transformer's position-wise feed-forward network?", "answer": ["2048"], "evidence": "inner-layer has dimensionality"}
+{"id": "q03", "doc": "1706.03762", "question": "How many parallel attention heads does the base Transformer use?", "answer": ["8", "eight"], "evidence": "we employ h = 8 parallel attention layers"}
+{"id": "q04", "doc": "1706.03762", "question": "What BLEU score did the big Transformer achieve on WMT 2014 English-to-German?", "answer": ["28.4"], "evidence": "28.4 BLEU"}
+{"id": "q05", "doc": "1706.03762", "question": "What value of label smoothing was used to train the Transformer?", "answer": ["0.1"], "evidence": "label smoothing of value"}
+{"id": "q06", "doc": "1706.03762", "question": "Why are dot products scaled by one over the square root of d_k in scaled dot-product attention?", "answer": ["small gradients", "softmax"], "evidence": "pushing the softmax function into regions where it has extremely small gradients"}
+{"id": "q07", "doc": "1706.03762", "question": "What hardware and how long was the big Transformer model trained?", "answer": ["3.5 days", "8 P100"], "evidence": "The big models were trained for 300,000 steps (3.5 days)"}
+{"id": "q08", "doc": "1810.04805", "question": "What two unsupervised tasks are used to pre-train BERT?", "answer": ["masked", "next sentence"], "evidence": "Next Sentence Prediction (NSP)"}
+{"id": "q09", "doc": "1810.04805", "question": "What percentage of WordPiece tokens are masked at random during BERT pre-training?", "answer": ["15%"], "evidence": "we mask 15% of all WordPiece"}
+{"id": "q10", "doc": "1810.04805", "question": "How many parameters does BERT-LARGE have?", "answer": ["340M"], "evidence": "Total Parameters=340M"}
+{"id": "q11", "doc": "1810.04805", "question": "What corpora were used for BERT pre-training?", "answer": ["BooksCorpus", "Wikipedia"], "evidence": "BooksCorpus (800M words)"}
+{"id": "q12", "doc": "1810.04805", "question": "When a token is chosen for masking in BERT, how often is it replaced with the [MASK] token?", "answer": ["80%"], "evidence": "80% of the time"}
+{"id": "q13", "doc": "1810.04805", "question": "What is the size of the WordPiece vocabulary used by BERT?", "answer": ["30,000", "30000"], "evidence": "30,000 token vocabulary"}
+{"id": "q14", "doc": "1810.04805", "question": "What GLUE score did BERT-LARGE obtain according to the abstract?", "answer": ["80.5"], "evidence": "80.5%"}
+{"id": "q15", "doc": "2005.11401", "question": "What are the two RAG formulations compared in the RAG paper?", "answer": ["RAG-Sequence", "RAG-Token"], "evidence": "RAG-Sequence model uses the same retrieved document"}
+{"id": "q16", "doc": "2005.11401", "question": "What is used as the non-parametric memory in RAG?", "answer": ["Wikipedia"], "evidence": "dense vector index of Wikipedia"}
+{"id": "q17", "doc": "2005.11401", "question": "Which pre-trained seq2seq model is used as the RAG generator?", "answer": ["BART"], "evidence": "BART-large"}
+{"id": "q18", "doc": "2005.11401", "question": "Which retriever does RAG use to access documents?", "answer": ["DPR", "Dense Passage Retriever"], "evidence": "Dense Passage Retriever"}
+{"id": "q19", "doc": "2005.11401", "question": "Into how many-word chunks is Wikipedia split for the RAG document index?", "answer": ["100"], "evidence": "100-word chunks"}
+{"id": "q20", "doc": "2005.11401", "question": "Which index library is used for MIPS in RAG?", "answer": ["FAISS"], "evidence": "FAISS"}
+{"id": "q21", "doc": "2004.12832", "question": "What interaction mechanism does ColBERT introduce?", "answer": ["late interaction"], "evidence": "late interaction architecture"}
+{"id": "q22", "doc": "2004.12832", "question": "What operator does ColBERT use to aggregate query-document token similarities?", "answer": ["MaxSim", "maximum similarity"], "evidence": "MaxSim operator"}
+{"id": "q23", "doc": "2004.12832", "question": "What metric does ColBERT report for retrieval effectiveness on the MS MARCO validation set?", "answer": ["MRR@10"], "evidence": "It reports retrieval effectiveness (MRR@10)"}
+{"id": "q24", "doc": "2004.12832", "question": "How much faster than BERT-based rankers does ColBERT claim to be?", "answer": ["170"], "evidence": "170×"}
+{"id": "q25", "doc": "2004.12832", "question": "What special tokens does ColBERT prepend to queries and documents?", "answer": ["[Q]", "[D]"], "evidence": "special token [Q]"}
+{"id": "q26", "doc": "1908.10084", "question": "What network structure does Sentence-BERT use to derive sentence embeddings?", "answer": ["siamese", "triplet"], "evidence": "triplet net"}
+{"id": "q27", "doc": "1908.10084", "question": "How long does finding the most similar pair in 10,000 sentences take with BERT versus SBERT?", "answer": ["65 hours", "5 seconds"], "evidence": "65 hours"}
+{"id": "q28", "doc": "1908.10084", "question": "What is SBERT's default pooling strategy?", "answer": ["MEAN"], "evidence": "Our default pooling strategy is MEAN"}
+{"id": "q29", "doc": "1908.10084", "question": "Which datasets were combined to fine-tune SBERT with the classification objective?", "answer": ["SNLI", "Multi-NLI", "MultiNLI"], "evidence": "we train SBERTbase on the SNLI and the Multi-NLI dataset"}
+{"id": "q30", "doc": "1908.10084", "question": "What is the classification objective's softmax input for SBERT?", "answer": ["|u-v|", "u, v"], "evidence": "concatenate"}
+{"id": "q31", "doc": "nist-ai-100-1", "question": "What are the four functions of the NIST AI RMF Core?", "answer": ["GOVERN", "MAP", "MEASURE", "MANAGE"], "evidence": "GOVERN, MAP, MEASURE, and MANAGE"}
+{"id": "q32", "doc": "nist-ai-100-1", "question": "Which AI RMF function is described as cross-cutting and infused throughout the other functions?", "answer": ["GOVERN"], "evidence": "cross-cutting"}
+{"id": "q33", "doc": "nist-ai-100-1", "question": "What characteristics of trustworthy AI systems does the NIST AI RMF list?", "answer": ["valid and reliable", "safe", "secure and resilient"], "evidence": "valid and reliable, safe, secure and resilient"}
+{"id": "q34", "doc": "nist-ai-100-1", "question": "Is the NIST AI RMF mandatory?", "answer": ["voluntary"], "evidence": "voluntary"}
+{"id": "q35", "doc": "nist-ai-100-1", "question": "Which characteristic is described as the base condition for the other trustworthiness characteristics?", "answer": ["valid and reliable", "Valid & Reliable"], "evidence": "necessary condition of trustworthiness"}
+{"id": "q36", "doc": "nist-ai-100-1", "question": "What three major categories of AI bias does NIST identify?", "answer": ["systemic", "computational and statistical", "human-cognitive"], "evidence": "systemic, computational and statistical, and human-cognitive"}
+{"id": "q37", "doc": "nist-ai-100-1", "question": "What does the MAP function establish?", "answer": ["context"], "evidence": "The MAP function establishes the context"}
+{"id": "q38", "doc": "nist-ai-100-1", "question": "In what month and year was AI RMF 1.0 released?", "answer": ["January 2023"], "evidence": "January 2023"}
+{"id": "q39", "doc": "1706.03762", "question": "Which optimizer was used to train the Transformer?", "answer": ["Adam"], "evidence": "We used the Adam optimizer"}
+{"id": "q40", "doc": "1810.04805", "question": "What is the maximum sequence length used in BERT pre-training?", "answer": ["512"], "evidence": "512 tokens"}

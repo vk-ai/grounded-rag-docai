@@ -1,0 +1,8 @@
+[
+ {"id":"1706.03762","url":"https://arxiv.org/pdf/1706.03762v7","sha256":"bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697","title":"Attention Is All You Need"},
+ {"id":"1810.04805","url":"https://arxiv.org/pdf/1810.04805v2","sha256":"5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e","title":"BERT"},
+ {"id":"1908.10084","url":"https://arxiv.org/pdf/1908.10084v1","sha256":"92366d22fc0521350d6cbe0ad72bcee754f90e88181d7b4a8e2adb1e7e594fec","title":"Sentence-BERT"},
+ {"id":"2004.12832","url":"https://arxiv.org/pdf/2004.12832v2","sha256":"2e487d9b96e3c2e5e286d843e98a066adc0442faa3a6e8ddbd1771221bf9ae14","title":"ColBERT"},
+ {"id":"2005.11401","url":"https://arxiv.org/pdf/2005.11401v4","sha256":"23e3249e9a1e75418d82efecab0ea8c4d033b89c93742f63208d47ce01f21233","title":"Retrieval-Augmented Generation"},
+ {"id":"nist-ai-100-1","url":"https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf","sha256":"7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1","title":"NIST AI Risk Management Framework 1.0 (US government work)"}
+]

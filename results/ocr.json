@@ -1,0 +1,86 @@
+[
+ {
+  "doc": "1706.03762",
+  "page": 2,
+  "wer_vs_pdftotext": 0.1182,
+  "ref_words": 626,
+  "ocr_s": 3.51
+ },
+ {
+  "doc": "1706.03762",
+  "page": 3,
+  "wer_vs_pdftotext": 0.4914,
+  "ref_words": 291,
+  "ocr_s": 2.13
+ },
+ {
+  "doc": "1810.04805",
+  "page": 2,
+  "wer_vs_pdftotext": 0.0438,
+  "ref_words": 639,
+  "ocr_s": 3.87
+ },
+ {
+  "doc": "1810.04805",
+  "page": 3,
+  "wer_vs_pdftotext": 0.1894,
+  "ref_words": 565,
+  "ocr_s": 3.3
+ },
+ {
+  "doc": "1908.10084",
+  "page": 2,
+  "wer_vs_pdftotext": 0.0599,
+  "ref_words": 701,
+  "ocr_s": 3.95
+ },
+ {
+  "doc": "1908.10084",
+  "page": 3,
+  "wer_vs_pdftotext": 0.1534,
+  "ref_words": 502,
+  "ocr_s": 3.01
+ },
+ {
+  "doc": "2004.12832",
+  "page": 2,
+  "wer_vs_pdftotext": 0.1144,
+  "ref_words": 822,
+  "ocr_s": 4.23
+ },
+ {
+  "doc": "2004.12832",
+  "page": 3,
+  "wer_vs_pdftotext": 0.0739,
+  "ref_words": 839,
+  "ocr_s": 4.57
+ },
+ {
+  "doc": "2005.11401",
+  "page": 2,
+  "wer_vs_pdftotext": 0.2141,
+  "ref_words": 654,
+  "ocr_s": 3.57
+ },
+ {
+  "doc": "2005.11401",
+  "page": 3,
+  "wer_vs_pdftotext": 0.2,
+  "ref_words": 595,
+  "ocr_s": 3.2
+ },
+ {
+  "doc": "nist-ai-100-1",
+  "page": 2,
+  "wer_vs_pdftotext": 0.04,
+  "ref_words": 50,
+  "ocr_s": 1.13
+ },
+ {
+  "doc": "nist-ai-100-1",
+  "page": 3,
+  "wer_vs_pdftotext": 0.0508,
+  "ref_words": 236,
+  "ocr_s": 1.82
+ }
+]

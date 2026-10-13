@@ -1,0 +1,14 @@
+[project]
+name = "grounded-rag-docai"
+version = "0.1.0"
+description = "Learning project: OCR + hybrid retrieval + rerank + cited answers + grounding eval"
+requires-python = ">=3.11"
+dependencies = []
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+ocr = ["pillow>=10"]
+models = ["sentence-transformers>=3", "numpy", "pillow>=10"]
+[tool.setuptools]
+packages = ["grag"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
